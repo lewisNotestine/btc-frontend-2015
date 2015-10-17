@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+ 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.9/css/dataTables.bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/autofill/2.0.0/css/autoFill.bootstrap.css"/>
+	 
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/1.10.9/js/dataTables.bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/autofill/2.0.0/js/dataTables.autoFill.min.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/autofill/2.0.0/js/autoFill.bootstrap.min.js"></script>
+ </head>
+
+<body>
+	<div id="searchContainer">
+
+	</div>
+	<div>
+		<table id="example" class="display" cellspacing="0" width="100%">
+			<thead>
+				<th>CAMPAIGN</th>
+				<th>SPENT</th>
+				<th>RAISED</th>
+				<th>DIFF</th>
+				<th>SOURCE</th>
+				<th>LAST 4 YEARS</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Measure</td>
+					<td>220.0k</td>
+					<td>546.8</td>
+					<td>324.8</td>
+					<td>Graph goes here</td>
+					<td>Chart goes here</td>
+				</tr>
+				<tr>
+					<td>AnotherMeasure</td>
+					<td>220.0k</td>
+					<td>546.8</td>
+					<td>324.8</td>
+					<td>Graph goes here</td>
+					<td>Chart goes here</td>
+				</tr>				
+			</tbody>						
+		</table>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function() {
+    		$('#example').DataTable();
+		} );
+	</script>
+</body>
+
+</html>
